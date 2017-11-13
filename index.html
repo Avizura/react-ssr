@@ -79,9 +79,16 @@
 			<li>Loading state</li>
 			<li>Получить асинхронный state
 				<ul>
-		    	<li>Вручную для каждой страницы => ReactDOMServer.renderToString</li>
+		    	<li>
+					Вручную для каждой страницы
+					<ul>
+						<li>Рендерим</li>
+				    	<li>Делаем запрос к апи и ждем пока промисы зарезолвятся</li>
+				    	<li>Повторно рендерим с данными</li>
+					</ul>
+				</li>
 		    	<li>Facebook Relay</li>
-					<li>Middleware</li>
+				<li>Middleware</li>
 		    </ul>
 			</li>
 		</ol>
